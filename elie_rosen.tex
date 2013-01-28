@@ -1,0 +1,155 @@
+% LaTeX source of my resume
+% =========================
+% This file is licensed under the CC-NC-ND Creative Commons license.
+
+% start a document with the here given default font size and paper size
+\documentclass[10pt,a4paper]{article}
+
+% include the `tex` instructions that takes care of loading packages and defining commands
+\include{resume-commands}
+
+\begin{document} % begin the content of the document
+\sloppy % this to relax whitespacing in favour of straight margins
+
+\maintitle{Elie Rosen}{Looking for Full-Time work in Computer Hardware, Board Layout, VLSI, and Verification} % title on top of the document
+
+\nobreakvspace{0.3em} % add some page break averse vertical spacing
+
+% \noindent prevents paragraph's first lines from indenting
+% \mbox is used to obfuscate the email address
+% \sbull is a spaced bullet
+% \href well..
+% \\ breaks the line into a new paragraph
+\noindent\href{mailto:elie@mylifeiscomputers.net}{elie\mbox{}@\mbox{}mylifeiscomputers.net}\sbull
+914.536.2149\sbull
+\href{http://www.linkedin.com/in/elierosen}{linkedin.com/in/elierosen} \\
+31 Overlook Road\sbull White Plains\sbull NY 10605
+
+\spacedhrule{0.9em}{-0.4em} % a horizontal line with some vertical spacing before and after
+\roottitle{Education}
+
+\headedsection
+{Rutgers, the State University of New Jersey}
+{\textsc{New Brunswick, NJ}} {%
+\headedsubsection
+	{Bachelor of Science in Electrical \& Computer Engineering}
+	{2009 -- May \apo13}
+	{\\ {\bf Minor: Entrepreneurship \sbull Cumulative GPA -- 3.079 \sbull Fall Semester 2012 GPA -- 3.583}}
+
+	{\bodytext{{\bf Relevant course work:} Computer Architecture, Digital Electronics, 
+		Digital Logic Design, Digital Systems Design, Discrete Mathematics, Operating Systems, 
+		Robotics \& Computer Vision, and VLSI}}
+}
+
+\spacedhrule{0.5em}{-0.4em}
+\roottitle{Experience}
+
+	\headedsection % sets the header for the section and includes any subsections
+		{\href{http://www.siemens.com}{Siemens Industry, Inc.}}
+		{\textsc{Dallas, TX}} {%
+
+	\headedsubsection % sets the header for a subsection and contains usually body text
+		{Electrical and Controls Automation Engineer -- Intern}
+		{May \apo12 -- Aug \apo12}
+		{\bodytext{Programmed Schneider Modicon Quantum PLC to build 
+			\href{http://en.wikipedia.org/wiki/Baggage_handling_system}{Baggage Handling System (BHS)} 
+			for Minneapolis St. Paul airport \sbull Designed 
+			\href{http://en.wikipedia.org/wiki/Human_machine_interface}{Human Machine Interface (HMI)} 
+			used for overview of BHS system health and operator controls \sbull 
+			Created tools to generate documentation and test plans from databases with over 10,000 entries \sbull
+			Presented and performed \href{http://en.wikipedia.org/wiki/Acceptance_testing}
+			{Factory Acceptance Test} to client, this allowed the project to move onto the next 
+			stage of development }}
+}
+
+	\headedsection
+		{\href{http://www.campusentertainment.net}{Campus Entertainment}/ 	
+		\href{http://ricemcvaneycommunications.com}{Rice McVaney Communications}}
+		{\textsc{New Brunswick, NJ}} {%
+	
+	\headedsubsection
+		{Windows UCREW Campus Representative}
+		{Sept \apo11 -- Present}
+		{\bodytext{Acquired and compiled comprehensive marketing research for Microsoft \sbull
+			Directly influenced the purchase of new laptops, tablets, cell phones, and 
+			gaming hardware with outreach to over 3,000 students}}
+}
+
+	\headedsection
+		{\href{http://soe.rutgers.edu}{Rutgers University, School of Engineering}}
+		{\textsc{Piscataway, NJ}} {%
+
+	\headedsubsection
+		{Webmaster}
+		{Sept \apo09 -- Present}
+		{\bodytext{Developed custom web pages and applications for departments, graduate programs, 
+			and professors along with various designs actively used across 15+ Rutgers websites}}
+}
+
+	\headedsection
+		{\href{http://www.redcross.org/take-a-class/program-highlights/lifeguarding}{Pool Management, Inc.}}
+		{\textsc{White Plains, NY}} {%
+
+	\headedsubsection
+		{Pool Operator \& Lifeguard}
+		{May \apo07 -- Sept \apo09}
+		{\bodytext{Maintained chemical balance of pool water and prepared pools for summer use \sbull
+			Ensured the safety and rule compliance of pool patrons \sbull 
+			Certifications: AED, CPR, First Aid, and Lifeguard}}
+}
+
+\spacedhrule{1.6em}{-0.4em}
+\roottitle{Skills}
+
+	\inlineheadsection % special section that has an inline header with a 'hanging' paragraph
+		{Programming Languages:}
+		{C -- 4yrs, \CPP -- 2.5yrs, Verilog -- 2yrs, x86 Assembly, Ladder Logic, PHP, MySQL}
+
+	\inlineheadsection
+		{Embedded Systems:}
+		{Arduino -- 4yrs, MSP430}
+
+	\inlineheadsection
+		{VLSI \& PCB:}
+		{Cadence, EAGLE, PSpice, Multisim}
+
+\spacedhrule{1.6em}{-0.4em}
+
+\begin{multicols}{3} % start multiple columns
+
+\roottitle{Awards and Achievements}
+	{\bodytext{Deans List (Fall 2012)\sbull
+		{\sl Project Lead}, Intelligent Ground Vehicle Competition, 
+		Rochester, MI, {\sl Second place} in Overall Design (2011, 2012)\sbull
+		Elmer C. Easton Scholarship (2012)\sbull
+		Designed webpages for two Mayors and Common Council Members (2009) \sbull
+		University of Rochester Xerox Award for {\sl Innovation \& Information Technology} (2008)}}
+
+\roottitle{Extracurricular Activities}
+	{\bodytext{{\sl Chapter President \& National Member}, Institute of Electrical 
+		and Electronics Engineers (2009 -- Present) \sbull
+		{\sl Co-Founded}, the Academic Integrity Task Force (2012 -- Present) \sbull
+		Rutgers University Student Linux User Group (2009 -- 2011) \sbull
+		Rutgers Entrepreneurial Society (2009 -- 2011) \sbull
+		{\sl Webmaster}, Engineering Governing Council (2010 -- 2011)}}
+
+\roottitle{Community Service}
+	{\bodytext{{\sl Encouraged} and {\sl Inspired} young adults to
+		 persue \acr{STEM} related activities by showcasing and teaching robotics  \sbull
+		{\sl Guest Lecturer} for class on {\sl "How to Solder, Build \& 
+		Program a Line Following Robot"}  \sbull
+		Lifeguard for the New York State Special Olympics  \sbull
+		{\sl Designed \& Maintained} multiple websites including 
+		\href{http://www.mowwp.org}{Meals-on-Wheels of White Plains, NY}}}
+
+\end{multicols}
+
+\spacedhrule{1.6em}{-0.4em}
+\roottitle{Code and Projects}
+	{\bodytext{Online code and circuit board portfolio -- \href{http://erosen.github.com}{erosen.github.com}}
+	{\bodytext{Blog of current projects and experiences -- 
+		\href{http://www.mylifeiscomputers.net}{mylifeiscomputers.net}}
+
+\end{document}
+
+
