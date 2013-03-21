@@ -1,3 +1,4 @@
+%& -job-name=Rosen,Elie-Resume
 % LaTeX source of my resume
 % =========================
 % This file is licensed under the CC-NC-ND Creative Commons license.
@@ -12,6 +13,7 @@
 \sloppy % this to relax whitespacing in favour of straight margins
 
 \maintitle{Elie Rosen}{} % title on top of the document
+\centerline{\noindent\href{http://www.linkedin.com/in/elierosen}{http://linkedin.com/in/elierosen}}
 
 \nobreakvspace{0.3em} % add some page break averse vertical spacing
 
@@ -20,28 +22,33 @@
 % \sbull is a spaced bullet
 % \href well..
 % \\ breaks the line into a new paragraph
-\noindent\href{mailto:elie@mylifeiscomputers.net}{elie\mbox{}@\mbox{}mylifeiscomputers.net}\sbull
-914.536.2149\sbull
-\href{http://www.linkedin.com/in/elierosen}{linkedin.com/in/elierosen} \\
-31 Overlook Road\sbull White Plains\sbull NY 10605
+\noindent\href{mailto:elie@mylifeiscomputers.net}{elie\mbox{}@\mbox{}mylifeiscomputers.net} \hfill \href{http://erosen.github.com}{http://erosen.github.com} \\
 
-\spacedhrule{0.6em}{-0.4em} % a horizontal line with some vertical spacing before and after
-\roottitle{Education}
+\spacedhrule{-0.6em}{-0.4em} % a horizontal line with some vertical spacing before and after
+\roottitle{Employment Interest}
 
 \headedsection
-{Rutgers, the State University of New Jersey}
-{\textsc{New Brunswick, NJ}} {%
-\headedsubsection
-	{Bachelor of Science in Electrical \& Computer Engineering}
-	{2009 -- May \apo13}
-	{\\ {\bf Minor: Entrepreneurship \sbull Cumulative GPA -- 3.079 \sbull Fall Semester 2012 GPA -- 3.583}}
+{\textbf{\emph{\large{Rutgers University has allowed me to sharpen my hardware engineering skills in these \\areas: chip design at the silicon logic level (VLSI), board design and layout, FPGAs, ASICs, verification, robotics and computer vision. I have been a lecturer and tutor, and am willing to relocate for a challenging job.} }}}
 
-	{\bodytext{{\bf Relevant course work:} Computer Architecture, Digital Electronics, 
-		Digital Logic Design, Digital Systems Design, Discrete Mathematics, Operating Systems, 
-		Robotics \& Computer Vision, and VLSI}}
-}
 
 \spacedhrule{0.6em}{-0.4em}
+
+\roottitle{Skills \&  Projects}
+
+	
+		{\bodytext{{\bf Programming Languages:} C -- 4yrs, \CPP -- 2.5yrs, C\#, \LaTeX,  
+							MySQL, Verilog -- 3yrs, x86 Assembly}}
+	
+		{\bodytext{{\bf Embedded Systems:} Arduino -- 4yrs, MSP430}}
+
+		{\bodytext{{\bf FPGA, PCB, and VLSI:} Altera Quartus II, Cadence (PSpice, Verilog-XL, Virtuoso), 
+							EAGLE, Multisim}}
+
+		{\bodytext{{\bf Project Portfolio:}  Computer Vision, FPGAs, Robotics, and more at \href{http://erosen.github.com}{http://erosen.github.com}}
+	
+
+\spacedhrule{0.6em}{-0.4em}
+
 \roottitle{Experience}
 
 	\headedsection % sets the header for the section and includes any subsections
@@ -60,19 +67,6 @@
 			Primary presenter of the \href{http://en.wikipedia.org/wiki/Acceptance_testing}
 			{Factory Acceptance Test} to client; enabling project to enter the next 
 			stage of development }}
-}
-
-	\headedsection
-		{\href{http://www.campusentertainment.net}{Campus Entertainment}/ 	
-		\href{http://ricemcvaneycommunications.com}{Rice McVaney Communications}}
-		{\textsc{New Brunswick, NJ}} {%
-	
-	\headedsubsection
-		{Windows UCREW Campus Representative}
-		{Sept \apo11 -- Present}
-		{\bodytext{Acquired and compiled comprehensive marketing research for Microsoft \sbull
-			Directly influenced the purchase of new laptops, tablets, cell phones, and 
-			gaming hardware with outreach to over 3,000 students}}
 }
 
 	\headedsection
@@ -99,17 +93,7 @@
 }
 
 \spacedhrule{0.6em}{-0.4em}
-\roottitle{Skills}
 
-	
-		{\bodytext{{\bf Programming Languages:} C -- 4yrs, \CPP -- 2.5yrs, 
-			Verilog -- 2yrs, x86 Assembly, Ladder Logic, PHP, MySQL}}
-	
-		{\bodytext{{\bf Embedded Systems:} Arduino -- 4yrs, MSP430}}
-
-		{\bodytext{{\bf VLSI \& PCB:} Cadence, EAGLE, PSpice, Multisim}}
-
-\spacedhrule{0.6em}{-0.4em}
 
 \begin{multicols}{3} % start multiple columns
 
@@ -122,7 +106,7 @@
 		University of Rochester Xerox Award for {\sl Innovation \& Information Technology} (2008)}}
 
 \roottitle{Extracurricular Activities}
-	{\bodytext{{\sl Chapter President \& National Member}, Institute of Electrical 
+	{\bodytext{{\sl Student Branch Chair \& National Member}, Institute of Electrical 
 		and Electronics Engineers (2009 -- Present) \sbull
 		{\sl Co-Founded}, the Academic Integrity Task Force (2012 -- Present) \sbull
 		Rutgers University Student Linux User Group (2009 -- 2011) \sbull
@@ -140,11 +124,27 @@
 
 \end{multicols}
 
-\spacedhrule{0.8em}{0.4em}
-\roottitle{Code and Projects}
-	{\bodytext{Online code and circuit board portfolio -- \href{http://erosen.github.com}{erosen.github.com}}
-	{\bodytext{Blog of current projects and experiences -- 
-		\href{http://www.mylifeiscomputers.net}{mylifeiscomputers.net}}
+\spacedhrule{-0.6em}{-0.4em} % a horizontal line with some vertical spacing before and after
+
+\roottitle{Education}
+
+\headedsection
+{Rutgers, the State University of New Jersey}
+{\textsc{New Brunswick, NJ}} {%
+\headedsubsection
+	{Bachelor of Science in Electrical \& Computer Engineering}
+	{2009 -- May \apo13}
+	{\\ {\bf Minor: Entrepreneurship \sbull Cumulative GPA -- 3.079 \sbull Fall Semester 2012 GPA -- 3.583}}
+
+	{\bodytext{{\bf Relevant course work:} Computer Architecture, Digital Electronics, 
+		Digital Logic Design, Digital Systems Design, Discrete Mathematics, Operating Systems, 
+		Robotics \& Computer Vision, and VLSI}}
+}
+
+
+\spacedhrule{0.6em}{1.4em} % a horizontal line with some vertical spacing before and after
+
+\vspace{5mm}\centerline { 914.536.2149 \emph{(Cell)}  \sbull mylifeiscomputers \emph{(Skype)}  \sbull 31 Overlook Road\sbull White Plains\sbull NY 10605}
 
 \end{document}
 
