@@ -10,7 +10,7 @@ For my Senior Capstone Design, I am developing a 3D Replicator. By using a Micro
 
 **Independent Study on Field Programmable Gate Arrays**  
 FPGAs are something that I have had a lot of interest in for quite some time, but I never had an opportunity to study due to lack of time and my involvement in other activities. The goal of this study is to program an Intel 8086 microprocessor on to an Altera Cyclone III. Once working, MS-DOS will be installed to flash memory to demonstrate the processors capabilities . This project is advised by [Professor Michael Caggiano](http://www.ece.rutgers.edu/faculty/caggiano) and is fully sponsored through the [Altera University Program](http://www.altera.com/education/univ/unv-index.html). 
-[Working FPGA](/images/fpgaworking.jpg)
+![Working FPGA](/images/fpgaworking.jpg "Working FPGA")
 
 Project Archive
 ===============
