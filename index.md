@@ -8,4 +8,4 @@ I am currently in my Senior year at Rutgers University studying Electrical and C
 
 Past course work relevant to my desired field of work include; Electronic Devices, Digital Logic Design, **Digital System Design**, Digital Electronics, Programming Methodology, **Operating Systems**, Robotics & Computer Vision, Software Engineering, and **Intro to VLSI**.
 
-Along with my course work, I am currently the President of the [IEEE](http://www.ieee.org) student branch. Our current work can be found on our website [ieee.rutgers.edu](http://ieee.rutgers.edu). I spend most of my time working on our entry to the 2013 Intelligent Ground Vehicle Competition in Rochester Michigan this coming June.
+Along with my course work, I am currently the Chair of the Rutgers [IEEE](http://www.ieee.org) student branch. Our current work can be found on our website [ieee.rutgers.edu](http://ieee.rutgers.edu).
