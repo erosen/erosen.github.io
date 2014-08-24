@@ -1,3 +1,5 @@
+%%
+
 %& -job-name=Rosen,Elie-Resume
 % LaTeX source of my resume
 % =========================
@@ -22,7 +24,7 @@
 % \sbull is a spaced bullet
 % \href well..
 % \\ breaks the line into a new paragraph
-\noindent\href{mailto:elie@mylifeiscomputers.net}{elie\mbox{}@\mbox{}mylifeiscomputers.net} \hfill \href{http://erosen.github.io}{http://erosen.github.io} \\
+\noindent\href{mailto:elie@mylifeiscomputers.net}{elie\mbox{}@\mbox{}mylifeiscomputers.net} \hfill \href{http://www.mylifeiscomputers.net}{http://www.mylifeiscomputers.net} \\
 
 \spacedhrule{-0.6em}{-0.4em} % a horizontal line with some vertical spacing before and after
 \roottitle{Employment Interest}
@@ -36,12 +38,9 @@
 \roottitle{Skills \&  Projects}
 
 	
-		{\bodytext{{\bf Programming Languages:} C -- 4yrs, \CPP -- 2.5yrs, C\#, \LaTeX, MySQL, Verilog -- 3yrs, VHDL, x86 Assembly}}
-	
-		{\bodytext{{\bf Embedded Systems:} Altera Cyclone FPGA, Arduino -- 4yrs, MSP430}}
+		{\bodytext{{\bf Programming Languages:} System Verilog , VHDL, Perl, C , \CPP, C\#, \LaTeX, MySQL, x86 Assembly}}
 
-		{\bodytext{{\bf FPGA, PCB, and VLSI:} Altera Quartus II, Cadence (PSpice, Verilog-XL, Virtuoso), 
-							EAGLE, Multisim}}
+		{\bodytext{{\bf FPGA, PCB, and VLSI:} Altera and Xilinx SoC, Cadence (PSpice, Verilog-XL, Virtuoso), EAGLE, Multisim}}
 
 		{\bodytext{{\bf Project Portfolio:}  Computer Vision, FPGAs, Robotics, and more at \href{http://erosen.github.io}{http://erosen.github.io}}
 	
@@ -51,17 +50,27 @@
 \roottitle{Experience}
 
 	\headedsection % sets the header for the section and includes any subsections
+		{\href{http://www.teledynelecroy.com}{Teledyne Lecroy}}
+		{\textsc{Chestnut Ridge, NY}} {%
+
+		\headedsubsection % sets the header for a subsection and contains usually body text
+			{Digital IC Design Intern}
+			{May \apo14 -- Aug \apo14}
+			{\bodytext{ Developed the instructional lab for a new course at Rutgers based on the Altera DE2-115 FPGA Development Board that 				includes topics on Flip-Flops and Latches, Addition Systems, Finite State Machines, ALUs, Ethernet, VGA, and RAM.}}
+	}
+
+	\headedsection % sets the header for the section and includes any subsections
 		{\href{http://www.ece.rutgers.edu/embedded-systems}{Rutgers University Electrical \& Computer Engineering Department}}
 		{\textsc{Piscataway, NJ}} {%
 
-	\headedsubsection % sets the header for a subsection and contains usually body text
-		{Teaching Assistant}
-		{June \apo13 -- Present}
-		{\bodytext{ {\bf ECE 492/519: Hardware/Software Design of Embedded Systems} \sbull
-				Developed the instructional lab for a new course at Rutgers based on the Altera DE2-115 FPGA Development Board that includes topics on Flip-Flops and Latches, Addition Systems, Finite State Machines, ALUs, Ethernet, VGA, and RAM. 
+		\headedsubsection % sets the header for a subsection and contains usually body text
+			{Teaching Assistant}
+			{June \apo13 -- Present}
+			{\bodytext{ {\bf ECE 492/519: Hardware/Software Design of Embedded Systems} \sbull
+				Developed the instructional lab for a new course at Rutgers based on the Altera DE2-115 FPGA Development Board that 							includes topics on Flip-Flops and Latches, Addition Systems, Finite State Machines, ALUs, Ethernet, VGA, and RAM. 
 
-{\bf Expected student outcome}: A complex understanding of FPGAs and their use in industry including advanced knowledge of the VHDL hardware description language and proper testing and verification techniques for implementing functional hardware.}}
-}
+			{\bf Expected student outcome}: A complex understanding of FPGAs and their use in industry including advanced knowledge of the 					VHDL hardware description language and proper testing and verification techniques for implementing functional hardware.}}
+	}
 
 	\headedsection 
 		{\href{http://www.siemens.com}{Siemens Industry, Inc.}}
@@ -85,34 +94,14 @@
 \spacedhrule{0.6em}{-0.4em}
 
 
-\begin{multicols}{3} % start multiple columns
 
-\roottitle{Awards and Achievements}
-	{\bodytext{Deans List (Fall 2012)\sbull
-		{\sl Project Lead}, Intelligent Ground Vehicle Competition, 
-		\space Rochester, MI, {\sl \\Second place} in Overall Design (2011, 2012)\sbull
-		Elmer C. Easton Scholarship (2012)\sbull
-		Designed webpages for two Mayors and \\Common Council Members (2009) \sbull
-		University of Rochester Xerox Award for {\sl Innovation \& Information Technology} (2008)}}
-
-\roottitle{Extracurricular Activities}
-	{\bodytext{{\sl Student Branch Chair \& National Member}, Institute of Electrical 
-		and Electronics Engineers (2009 -- 2013) \sbull
-		{\sl Co-Founded}, the Academic Integrity Task Force (2012 -- 2013) \sbull
-		Rutgers University Student Linux User Group (2009 -- 2011) \sbull
-		Rutgers Entrepreneurial Society (2009 -- 2011) \sbull
-		{\sl Webmaster}, Engineering Governing Council (2010 -- 2011)}}
-
-\roottitle{Community Service}
-	{\bodytext{{\sl Encouraged} and {\sl Inspired} young adults to
-		 persue \acr{STEM} related \\activities by showcasing and teaching robotics  \sbull
-		{\sl Guest \\Lecturer} for class on {\sl "How to \\Solder, Build \& 
-		Program a Line\\ Following Robot"}  \sbull
-		Lifeguard for the New York State Special Olympics  \sbull
-		{\sl Designed \& \\Maintained} multiple websites including 
-		\href{http://www.mowwp.org}{Meals-on-Wheels of White Plains, NY}}}
-
-\end{multicols}
+\roottitle{Professional Activites}
+	{\bodytext{{\sl Student Branch Chair \& National Member}, Institute of Electrical \\
+		and Electronics Engineers (2009 -- 2013) \\\sbull
+		{\sl Co-Founded}, the Academic Integrity Task Force (2012 -- 2013)\\ \sbull
+		Rutgers University Student Linux User Group (2009 -- 2011) \\\sbull
+		Rutgers Entrepreneurial Society (2009 -- 2011) \\ \sbull
+		{\sl Webmaster}, Engineering Governing Council (2010 -- 2011)\\}}
 
 \spacedhrule{-0.6em}{-0.4em} % a horizontal line with some vertical spacing before and after
 
@@ -121,10 +110,10 @@
 {Rutgers, the State University of New Jersey}
 {\textsc{New Brunswick, NJ}} {%
 \headedsubsection
-	{Masters of Science in Computer Engineering \sbull GPA: 4.00/4.00}
+	{Masters of Science in Computer Engineering \sbull GPA: 3.83/4.00}
 	{2013 -- May \apo15 (expected)}
 
-	{\bodytext{{\bf Relevant course work:} Computer Architecture, Transistor Circuit Design, and VLSI}}
+	{\bodytext{{\bf Relevant coursework:} Computer Architecture, Transistor Circuit Design, and VLSI}}
 }
 \headedsection
 {Rutgers, the State University of New Jersey}
@@ -134,7 +123,7 @@
 	{2009 -- May \apo13}
 	{\\ {\bf Minor: Entrepreneurship \sbull GPA: 3.17/4.00}}
 
-	{\bodytext{{\bf Relevant course work:} Computer Architecture, Digital Electronics, 
+	{\bodytext{{\bf Relevant coursework:} Computer Architecture, Digital Electronics, 
 		Digital Logic Design, Digital Systems Design, Discrete Mathematics, Operating Systems, and Robotics \& Computer Vision}}
 }
 
