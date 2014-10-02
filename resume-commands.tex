@@ -92,6 +92,7 @@
 % pretty bullet (created from a much smaller centerdot), \sbull contains its spacing
 \newcommand*\bull{\raisebox{-0.365em}[-1em][-1em]{\textscale{4}{$\cdot$}}}
 \newcommand*\sbull{\ \ \bull \ \ }
+\renewcommand{\labelitemi}{\sbull}
 
 % it seems not to work when simply using \parindent...
 \newlength{\newparindent}
